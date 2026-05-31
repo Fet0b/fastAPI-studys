@@ -14,7 +14,7 @@ class TaskService:
             return self.repository.get_task_by_id(task_id)
         except TaskNotFoundError:
             raise
-
+    
     def create_task(self, task_create: TaskCreate) -> Task:
         return self.repository.create_task(task_create)
 
