@@ -1,5 +1,5 @@
-from app.application.domain.models import Task, TaskCreate, TaskUpdate
-from app.application.domain.ports import TaskRepositoryPort
+from app.domain.models import Task, TaskCreate, TaskUpdate
+from app.domain.ports import TaskRepositoryPort
 
 
 class InMemoryTaskRepository(TaskRepositoryPort):

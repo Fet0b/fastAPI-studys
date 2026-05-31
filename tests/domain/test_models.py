@@ -1,6 +1,6 @@
 import pytest
 
-from app.application.domain.models import Task, TaskCreate, TaskUpdate
+from app.domain.models import Task, TaskCreate, TaskUpdate
 from pydantic import ValidationError
 
 

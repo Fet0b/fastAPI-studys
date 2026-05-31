@@ -1,4 +1,4 @@
-from app.application.domain.exceptions import DomainError, TaskNotFoundError
+from app.domain.exceptions import DomainError, TaskNotFoundError
 
 
 def test_domain_error_stores_message_and_context():
